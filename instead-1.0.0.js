@@ -1,6 +1,5 @@
 (function(window) {
     const API = "http://itsmpohang.hssa.me:3000/api";
-    // const API = "http://192.168.0.47:3000/api";
     if (!window.XMLHttpRequest) {
         window.XMLHttpRequest = new ActiveXObject("Microsoft.XMLHTTP");
     }
