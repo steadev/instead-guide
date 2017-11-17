@@ -34,3 +34,10 @@ instead.requestPay({
     request_cb: function(res) { console.log(res); } 
 });
 ```
+
+# REST API
+결제 후 정보를 확인하고 정상처리여부를 검증할 수 있도록 REST API를 제공하고 있습니다.
+
+# 결제방식
+카드결제, 휴대폰결제, 실시간 계좌이체
+위 세가지를 제공하고있습니다.
