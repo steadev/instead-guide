@@ -1,6 +1,6 @@
 # 인스테드 연동가이드
 
-<script src="/instead-1.0.0.js"></script>
+<script src="instead-guide/instead-1.0.0.js"></script>
 instead.init('client_id');
 
 instead.requestPay({
