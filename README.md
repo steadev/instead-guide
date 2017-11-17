@@ -1,5 +1,6 @@
-#인스테드 연동가이드
+# 인스테드 연동가이드
 
+# code 
 <script src="instead-guide/instead-1.0.0.js"></script>
 instead.init('client_id');
 
