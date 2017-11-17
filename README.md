@@ -1,17 +1,17 @@
 # 인스테드 연동가이드
 
 > instead javascript import
-```
+```html
 <script src="instead-guide/instead-1.0.0.js"></script>
 ```
 
 > client_id로 initialize
-```
+```javascript
 instead.init('client_id');
 ```
 
 >  아이템 정보 및 요청자 정보 등을 포함하여 요청하면 끝납니다.
-```
+```javascript
 instead.requestPay({ 
     name: "홍길동", 
     tel: "010-0000-0000", 
