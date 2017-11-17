@@ -1,5 +1,7 @@
 # 인스테드 연동가이드
 
+> 인스테드 [관리자 페이지](http://shop.hssa.me)에서 가맹점등록
+
 > instead javascript import
 ```html
 <script src="instead-guide/instead-1.0.0.js"></script>
