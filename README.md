@@ -1,18 +1,18 @@
 # 인스테드 연동가이드
 
-1. 인스테드 [관리자 페이지](http://shop.hssa.me)에서 가맹점등록
+## 1. 인스테드 [관리자 페이지](http://shop.hssa.me)에서 가맹점등록
 
-2. instead javascript import
+## 2. instead javascript import
 ```html
 <script src="instead-guide/instead-1.0.0.js"></script>
 ```
 
-3. client_id로 initialize
+## 3. client_id로 initialize
 ```javascript
 instead.init('client_id');
 ```
 
-4. 아이템 정보 및 요청자 정보 등을 포함하여 요청하면 끝납니다.
+## 4. 아이템 정보 및 요청자 정보 등을 포함하여 요청하면 끝납니다.
 ```javascript
 instead.requestPay({ 
     name: "홍길동", 
