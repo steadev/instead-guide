@@ -1,6 +1,6 @@
 # 인스테드 연동가이드
 
-## 1. 인스테드 [관리자 페이지](http://shop.hssa.me)에서 가맹점등록
+## 1. 인스테드 [관리자 페이지](http://insteadadmin.hssa.me)에서 가맹점등록
 
 ## 2. instead javascript import
 ```html
