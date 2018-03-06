@@ -73,6 +73,7 @@ INSTEAD.requestPay({
 * 결제 결과는 Get 방식으로 instead_uid, merchant_uid, status를 쇼핑몰 측 서버에 전송합니다.  
 * 위 변수들로 결제가 제대로 이루어졌는지 검증할 수 있습니다. (관리자페이지 참조)
 > status : 'paid' || 'cancelled' || 'failed'
+>
 > status가 'paid'가 맞는지, 그리고 결제되어야 하는 금액과 실제 결제된 금액이 일치하는지 검증이 필요합니다.
 ## 6. 결제 조회 및 취소
 * 관리자페이지에서 직접 거래를 확인 및 취소할 수 있습니다.
