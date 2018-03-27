@@ -5,7 +5,7 @@
 ## 1. 인스테드 \[관리자 페이지\](https://admin.instead.co.kr/)에서 가맹점등록  
 ## 2. 인스테드 라이브러리를 HTML에 추가합니다.  
 ```html  
-<script src="instead-guide/instead-1.0.0.js"></script>  
+<script src="https://api.instead.co.kr/assets/instead-1.0.0.js"></script> 
 ```  
 ## 3. INSTEAD 변수를 초기화합니다. 
 ```INSTEAD.init(client_id)```
