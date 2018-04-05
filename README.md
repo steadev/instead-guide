@@ -3,9 +3,10 @@
 ### 결제대행 서비스 인스테드를 연동하는 방법입니다.  
   
 ## 1. 인스테드 \[관리자 페이지\](https://admin.instead.co.kr/)에서 가맹점등록  
-## 2. 인스테드 라이브러리를 HTML에 추가합니다.  
+* 결제결과를 통보받을 Hook Uri, 사이트 주소, PG정보 등을 먼저 등록합니다.
+## 2. 인스테드 라이브러리를 HTML에 추가합니다.  
 ```html  
-<script src="https://api.instead.co.kr/assets/instead-1.0.0.js"></script> 
+<script src="https://rawgit.com/itsmp/instead/master/instead-1.0.1.js"></script>
 ```  
 ## 3. INSTEAD 변수를 초기화합니다. 
 ```INSTEAD.init(client_id)```
@@ -70,8 +71,9 @@ INSTEAD.requestPay({
 });  
 ```  
 ## 5. 결제가 완료되면 쇼핑몰 측 서버에 결과를 전송합니다.  
-* 결제 결과는 Get 방식으로 instead_uid, merchant_uid, status를 쇼핑몰 측 서버에 전송합니다.  
-* 위 변수들로 결제가 제대로 이루어졌는지 검증할 수 있습니다. (관리자페이지 참조)
+* 결제 결과를 통보받을 Hook Uri를 먼저 관리자 페이지에 등록합니다.
+* 결제 결과는 Get 방식으로 instead_uid, merchant_uid, status를 쇼핑몰 측 서버에 전송합니다.  
+* 제공되는 API로 결제가 제대로 이루어졌는지 검증할 수 있습니다. (관리자페이지 참조)
 > status : 'paid' || 'cancelled' || 'failed'
 >
 > status가 'paid'가 맞는지, 그리고 결제되어야 하는 금액과 실제 결제된 금액이 일치하는지 검증이 필요합니다.
